@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  /* background-color: #0c8599; */
+  /* background: linear-gradient(to right bottom, #0c8599, #36454f); */
+  background-color: #0c8599;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: yellow;
+  width: 750px;
+  margin-left: 25%;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-sty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  gap: 15rem;
+  width: max-content;
+  padding: 2px 4px;
+  border-radius: 12px;
+  margin-left: 10rem;
+}
+input {
+  border: none;
+  font-size: 15px;
+  outline: none;
+  background-color: transparent;
+}
+.icon {
+  width: 28px;
+  height: 28px;
+  background: red;
+  border-radius: 10px;
+  color: aliceblue;
+  padding: 6px;
+}
+.todolist {
+  /* width: 300px; */
+  /* height: 100px; */
+  margin: 20px;
+  margin-left: 2rem;
+  padding: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: aliceblue;
+  /* padding-bottom: 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 20rem; */
+}
+.edit-list {
+  display: flex;
+  width: max-content;
+  border: 1px solid blue;
+  gap: 5rem;
+  margin-left: 15rem;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
